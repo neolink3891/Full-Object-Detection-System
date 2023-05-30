@@ -1,0 +1,17 @@
+{
+  "name": "slc",
+  "version": "1.0.0",
+  "description": "StarLockers Controller - Node.js App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NeoLink",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/parser-readline": "^11.0.0",
+    "express": "^4.17.1",
+    "serialport": "^9.2.8",
+    "xhr2": "^0.2.1"
+  }
+}

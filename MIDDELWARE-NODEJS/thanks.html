@@ -1,0 +1,37 @@
+<html style="height: 100%; width: 100%; padding: 0px;">
+<head>
+<title>THANK YOU</title>
+</head>
+<body id="pqp_body" style="height: 100%; width: 100%; padding: 0px; overflow: hidden;" oncontextmenu="return false;">
+    <div id="pqp_message" style="height: 100%; width: 100%; background: url('/pqp2.png'); background-repeat: no-repeat; background-size: 100% 100%; position: absolute; top: 0px; left: 0px;">
+        <div id="pqp_innermessage" style="height: 70%; width: 55%; position: absolute; top: 0; left: 0; border-radius: 25px; background-color: #CAEA89; box-shadow: 10px 10px 5px #5D8018;">
+            <div style="width: 100%; text-align: center; color: seagreen;"><h2>THANK YOU FOR YOUR ORDER!</h2></div>
+            <div style="width: 100%; text-align: center; color: navy;">
+                Your Parcel is in Door 1<br /><br />Do not forget to close the door after collecting your Item.<br /><br />PAQUEXPRO, Transport and Logistics Professionals.
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var enablenotif = "0";
+        
+        function centerKeypad() {
+            var dw = document.getElementById('pqp_message').clientWidth;
+            var dh = document.getElementById('pqp_message').clientHeight;
+            var kw = document.getElementById('pqp_innermessage').clientWidth;
+            var kh = document.getElementById('pqp_innermessage').clientHeight;
+            var mpw = dw / 2;
+            var mph = dh / 2;
+            var skp = mpw - (kw / 2);
+            var skh = mph - (kh / 2);
+            
+            document.getElementById('pqp_innermessage').style.left = skp;
+            document.getElementById('pqp_innermessage').style.top = skh;
+            
+        }
+        centerKeypad();
+
+        setTimeout("window.location.href = 'http://localhost:3030';", 5000);
+    </script>
+</body>
+</html>
