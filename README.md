@@ -2,7 +2,7 @@
 
 This Project shows how to combine Arduino along with sensors to detect if an object is present or not inside its range, and how this information can be passed to NodeJS running in a Raspberry Pi/Ubuntu which calls a PHP backend API and finally updating a MariaDB database.
 
-![Front View](https://github.com/neolink3891/xxx/blob/master/images/front.jpeg?raw=true)
+![Front View](https://github.com/neolink3891/Full-Object-Detection-System/blob/master/IMAGES/front.jpeg?raw=true)
 
 By combining different technologies it is possible to detect and update any backend server.
 
@@ -13,7 +13,7 @@ By combining different technologies it is possible to detect and update any back
 * MIDDLEWARE-NODEJS: NodeJS application that shows a webpage to the user, communicates with Arduino via Serial port, and makes API calls.
 * DATABASE-SCRIPTS: Table and Stored Procedured for Data storaging.
 
-![Full Process](https://github.com/neolink3891/xxx/blob/master/images/front.jpeg?raw=true)
+![Full Process](https://github.com/neolink3891/Full-Object-Detection-System/blob/master/IMAGES/process.png?raw=true)
 
 ## Elements
 
@@ -23,7 +23,7 @@ The system contains the following elements:
 
 Arduino controls sensors and sends/receives instructions from NodeJS.
 
-![Sensors](https://github.com/neolink3891/xxx/blob/master/images/front.jpeg?raw=true)
+![Sensors](https://github.com/neolink3891/Full-Object-Detection-System/blob/master/IMAGES/sensor_view.jpeg?raw=true)
 
 ### Middleware - NodeJS
 
@@ -39,4 +39,4 @@ Hosted in a AWS CentOS Server, it receives calls from NodeJS with two values: Do
 
 This storages data, in this example there is one singe Table, with few fields just to update what is the status of the container: EMPTY or NOT.
 
-![Circuit](https://github.com/neolink3891/xxx/blob/master/images/front.jpeg?raw=true)
+![Circuit](https://github.com/neolink3891/Full-Object-Detection-System/blob/master/IMAGES/upper_view.jpeg?raw=true)
